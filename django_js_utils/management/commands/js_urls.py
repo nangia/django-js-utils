@@ -4,7 +4,7 @@ from django.core.exceptions import ImproperlyConfigured
 
 from django.core.urlresolvers import RegexURLPattern, RegexURLResolver
 from django.core.management.base import BaseCommand
-from django.utils import simplejson
+import simplejson
 from django.utils.datastructures import SortedDict
 from django.conf import settings
 
